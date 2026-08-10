@@ -23,7 +23,7 @@ NHTSA TXT file
       ↓
 Azure Data Factory Data Flow
       ↓
-Data cleaning and transformation
+Data cleaning, transformation, and schema mapping
       ↓
 Manufacturer-based Parquet files
       ↓
