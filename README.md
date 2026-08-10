@@ -9,13 +9,23 @@ The goal was to take raw vehicle complaint data from the National Highway Traffi
 The project covers the full path from raw data to dashboard:
 
 ```text
-NHTSA TXT file
+NHTSA Complaints ZIP
+      ↓
+HTTPS source
       ↓
 Azure Data Factory
       ↓
+Azure Blob Storage
+      ↓
+ADF unzip / extraction
+      ↓
+NHTSA TXT file
+      ↓
+Azure Data Factory Data Flow
+      ↓
 Data cleaning and transformation
       ↓
-Parquet files
+Manufacturer-based Parquet files
       ↓
 Azure Data Lake Storage Gen2
       ↓
