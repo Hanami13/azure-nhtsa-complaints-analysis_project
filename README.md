@@ -99,7 +99,7 @@ azure-nhtsa-analytics-pipeline/
 │   ├── create_external_table.sql
 │   └── ford_f150_crashes.sql
 ├── powerbi/
-│   └── Jan_Pabiszczak_NHTSA_Ford_Microsoft_Power_BI.pbix
+│   └── Jan_Pabiszczak_NHTSA_Ford_Microsoft_Power_BI.pbit
 └── images/
     ├── adf-data-flow.png
     ├── parquet-storage.png
@@ -119,3 +119,5 @@ Synapse queries the data
 Power BI visualizes the data
 ``` 
 It also demonstrated the practical separation of storage and computation in a modern cloud analytics architecture. The data remains in Azure Data Lake Storage, while Azure Synapse Serverless SQL provides the computational layer used to query it.
+
+The Power BI report is provided as a .pbit template to reduce repository size. The template contains the report structure, queries, model, and visual definitions but excludes the imported dataset.
