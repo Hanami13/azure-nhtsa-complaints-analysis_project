@@ -99,7 +99,7 @@ azure-nhtsa-analytics-pipeline/
 │   ├── create_external_table.sql
 │   └── ford_f150_crashes.sql
 ├── powerbi/
-│   └── Jan_Pabiszczak_Homework_3c_Microsoft_Power_BI.pbix
+│   └── Jan_Pabiszczak_NHTSA_Ford_Microsoft_Power_BI.pbix
 └── images/
     ├── adf-data-flow.png
     ├── parquet-storage.png
